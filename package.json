@@ -1,0 +1,30 @@
+{
+  "name": "tut",
+  "version": "1.0.0",
+  "description": "This is my first node js program",
+  "keywords": [
+    "Code",
+    "Step",
+    "by",
+    "step"
+  ],
+  "homepage": "https://github.com/Usman9929/Node.js-Practice-code#readme",
+  "bugs": {
+    "url": "https://github.com/Usman9929/Node.js-Practice-code/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Usman9929/Node.js-Practice-code.git"
+  },
+  "license": "ISC",
+  "author": "usman",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "tut"
+  },
+  "dependencies": {
+    "color": "^5.0.0",
+    "simple-node-logger": "^21.8.12"
+  }
+}
