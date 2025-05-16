@@ -1,6 +1,5 @@
-const http = require('http')
+const { default: chalk } = require('chalk')
+console.log(chalk.blue("Hello World"))
 
-http.createServer((req, resp) => {
-    resp.write("<h1> Hello World this is my first Node Js server")
-    resp.end()
-}).listen(4500)
+require('colors')
+console.log("hello world!".bgBlue)
